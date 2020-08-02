@@ -2,4 +2,4 @@
 Ecommerce Backend
 
 ## Overview
-Ec
+Ecommerce API to handle some transactional things like (Custom
