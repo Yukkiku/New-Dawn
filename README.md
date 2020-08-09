@@ -13,4 +13,9 @@ Following these instructions will make this project running in your local machin
 - Python3
 - Docker
 - docker-compose
-- Postgres  [psycopg](http://initd.org/psycopg/docs/instal
+- Postgres  [psycopg](http://initd.org/psycopg/docs/install.html)
+```
+
+### Installing
+```buildoutcfg
+1- cd ecommerc
