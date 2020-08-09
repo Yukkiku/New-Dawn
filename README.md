@@ -13,4 +13,4 @@ Following these instructions will make this project running in your local machin
 - Python3
 - Docker
 - docker-compose
-- Postgres
+- Postgres  [psycopg](http://initd.org/psycopg/docs/instal
