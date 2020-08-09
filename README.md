@@ -18,4 +18,6 @@ Following these instructions will make this project running in your local machin
 
 ### Installing
 ```buildoutcfg
-1- cd ecommerc
+1- cd ecommerce-backend
+2- python3 -m venv env
+3- source env/bin/acti
