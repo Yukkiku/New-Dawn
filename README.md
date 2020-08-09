@@ -9,4 +9,8 @@ Following these instructions will make this project running in your local machin
 
 ### Prerequisites
 
-```build
+```buildoutcfg
+- Python3
+- Docker
+- docker-compose
+- Postgres
