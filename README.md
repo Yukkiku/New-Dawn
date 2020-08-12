@@ -24,4 +24,8 @@ Following these instructions will make this project running in your local machin
 4- pip install -r requirements.txt
 ```
 
-### Running te
+### Running tests
+
+```buildoutcfg
+python manage.py test
+```
