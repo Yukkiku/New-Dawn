@@ -7,4 +7,6 @@ from ecommerce.user.factories import UserProfileFactory
 
 
 class CartFactory(factory.DjangoModelFactory):
-    u
+    user = factory.SubFactory(UserProfileFactory)
+
+    @factory.post_
