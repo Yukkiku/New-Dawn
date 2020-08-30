@@ -9,4 +9,5 @@ from ecommerce.user.factories import UserProfileFactory
 class CartFactory(factory.DjangoModelFactory):
     user = factory.SubFactory(UserProfileFactory)
 
-    @factory.post_
+    @factory.post_generation
+    def items(obj, create, extracted
