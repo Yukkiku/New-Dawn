@@ -10,4 +10,6 @@ class CartFactory(factory.DjangoModelFactory):
     user = factory.SubFactory(UserProfileFactory)
 
     @factory.post_generation
-    def items(obj, create, extracted
+    def items(obj, create, extracted, **kwargs):
+        if not create:
+       
