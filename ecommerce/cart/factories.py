@@ -16,3 +16,9 @@ class CartFactory(factory.DjangoModelFactory):
         if extracted:
             for product in extracted:
                 obj.items.add(product)
+
+    class Meta:
+        model = Cart
+
+
+class CartIt
