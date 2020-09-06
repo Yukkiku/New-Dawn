@@ -14,4 +14,5 @@ class CartFactory(factory.DjangoModelFactory):
         if not create:
             return
         if extracted:
-            for produ
+            for product in extracted:
+                obj.items.add(product)
