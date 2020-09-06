@@ -12,4 +12,6 @@ class CartFactory(factory.DjangoModelFactory):
     @factory.post_generation
     def items(obj, create, extracted, **kwargs):
         if not create:
-       
+            return
+        if extracted:
+            for produ
