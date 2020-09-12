@@ -21,4 +21,5 @@ class CartFactory(factory.DjangoModelFactory):
         model = Cart
 
 
-class CartIt
+class CartItemFactory(factory.DjangoModelFactory):
+    cart = factory.Sub
