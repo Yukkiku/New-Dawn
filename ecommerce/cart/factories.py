@@ -22,4 +22,5 @@ class CartFactory(factory.DjangoModelFactory):
 
 
 class CartItemFactory(factory.DjangoModelFactory):
-    cart = factory.Sub
+    cart = factory.SubFactory(CartFactory)
+    item = factory.LazyAttribute(ProductVariatio
