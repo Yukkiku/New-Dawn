@@ -23,4 +23,7 @@ class CartFactory(factory.DjangoModelFactory):
 
 class CartItemFactory(factory.DjangoModelFactory):
     cart = factory.SubFactory(CartFactory)
-    item = factory.LazyAttribute(ProductVariatio
+    item = factory.LazyAttribute(ProductVariationFactory)
+    quantity = factory.Faker('pyint')
+
+    @factory.post_
