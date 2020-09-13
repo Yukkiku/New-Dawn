@@ -27,4 +27,7 @@ class CartItemFactory(factory.DjangoModelFactory):
     quantity = factory.Faker('pyint')
 
     @factory.post_generation
-    def item(obj, create, 
+    def item(obj, create, extracted, **kwargs):
+        if not create:
+            return
+
