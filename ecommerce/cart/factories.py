@@ -31,3 +31,5 @@ class CartItemFactory(factory.DjangoModelFactory):
         if not create:
             return
 
+    class Meta:
+        model = CartItem
