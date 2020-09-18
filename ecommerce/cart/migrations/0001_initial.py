@@ -22,3 +22,25 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
                 ('updated_at', models.DateTimeField(auto_now=True)),
+            ],
+        ),
+        migrations.CreateModel(
+            name='CartItem',
+            fields=[
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('quantity', models.PositiveIntegerField(default=1)),
+                ('cart', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='cart.Cart')),
+                ('item', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product.ProductVariation')),
+            ],
+        ),
+        migrations.AddField(
+            model_name='cart',
+            name='items',
+            field=models.ManyToManyField(through='cart.CartItem', to='product.ProductVariation'),
+        ),
+        migrations.AddField(
+            model_name='cart',
+            name='user',
+            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),
+        ),
+    ]
