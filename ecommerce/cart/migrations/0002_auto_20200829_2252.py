@@ -12,4 +12,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migration
+        migrations.AlterField(
+            model_name='cart',
+            name='u
