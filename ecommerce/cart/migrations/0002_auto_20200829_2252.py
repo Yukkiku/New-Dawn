@@ -8,4 +8,8 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('user', '0003_customer'),
-      
+        ('cart', '0001_initial'),
+    ]
+
+    operations = [
+        migration
