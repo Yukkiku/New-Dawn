@@ -1,2 +1,2 @@
 from .cart import Cart
-from .cart imp
+from .cart import CartItem
