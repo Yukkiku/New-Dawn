@@ -14,4 +14,5 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AlterField(
             model_name='cart',
-            name='u
+            name='user',
+            field=models.ForeignKey(blank=True, null=Tru
