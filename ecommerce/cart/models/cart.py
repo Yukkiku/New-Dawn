@@ -1,3 +1,4 @@
 from django.db import models
 
-from ecommerce.c
+from ecommerce.cart.models.cart_item import CartItem
+from ecomme
