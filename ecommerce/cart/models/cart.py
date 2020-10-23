@@ -5,4 +5,5 @@ from ecommerce.product.models.product_variation import ProductVariation
 from ecommerce.user.models import UserProfile
 
 
-clas
+class Cart(models.Model):
+    user = models.ForeignKey(Us
