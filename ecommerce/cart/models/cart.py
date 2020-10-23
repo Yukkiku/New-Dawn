@@ -6,4 +6,4 @@ from ecommerce.user.models import UserProfile
 
 
 class Cart(models.Model):
-    user = models.ForeignKey(Us
+    user = models.ForeignKey(UserProfile, null=True, blank=True, on_delete=model
