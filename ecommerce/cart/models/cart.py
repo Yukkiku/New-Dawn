@@ -9,4 +9,4 @@ class Cart(models.Model):
     user = models.ForeignKey(UserProfile, null=True, blank=True, on_delete=models.CASCADE)
     items = models.ManyToManyField(ProductVariation, through=CartItem)
     created_at = models.DateTimeField(auto_now_add=True, auto_now=False)
-    updated_at = models.D
+    updated_at = models.DateTimeField(auto_now_add=False, auto_now=True)
