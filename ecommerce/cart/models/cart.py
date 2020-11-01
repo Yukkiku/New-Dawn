@@ -7,4 +7,5 @@ from ecommerce.user.models import UserProfile
 
 class Cart(models.Model):
     user = models.ForeignKey(UserProfile, null=True, blank=True, on_delete=models.CASCADE)
-    items = models.ManyToManyField(ProductVariation, t
+    items = models.ManyToManyField(ProductVariation, through=CartItem)
+    created_at = models.DateTimeField(a
