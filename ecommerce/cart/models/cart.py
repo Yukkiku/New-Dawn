@@ -13,3 +13,6 @@ class Cart(models.Model):
 
     def __unicode__(self):
         return str(self.id)
+
+    def __str__(self):
+        return 'User: {} has {} items
