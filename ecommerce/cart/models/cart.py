@@ -10,3 +10,6 @@ class Cart(models.Model):
     items = models.ManyToManyField(ProductVariation, through=CartItem)
     created_at = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated_at = models.DateTimeField(auto_now_add=False, auto_now=True)
+
+    def __unicode__(self):
+        return str(self.id)
