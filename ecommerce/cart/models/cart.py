@@ -15,4 +15,4 @@ class Cart(models.Model):
         return str(self.id)
 
     def __str__(self):
-        return 'User: {} has {} items
+        return 'User: {} has {} items in their cart. Their total is ${}'.format(self.user, 
