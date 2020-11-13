@@ -18,4 +18,8 @@ class Cart(models.Model):
         return 'User: {} has {} items in their cart. Their total is ${}'.format(self.user, self.count, self.cart_price)
 
     @property
-    def coun
+    def count(self) -> int:
+        return self.cartitem_set.count()
+
+    @property
+   
