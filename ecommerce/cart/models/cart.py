@@ -25,4 +25,8 @@ class Cart(models.Model):
     def cart_price(self) -> int:
         total = 0
         for item in self.cartitem_set.all():
-            total += i
+            total += item.item_total
+        return total
+
+    @property
+    def total_co
