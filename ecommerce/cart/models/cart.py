@@ -29,4 +29,6 @@ class Cart(models.Model):
         return total
 
     @property
-    def total_co
+    def total_count(self) -> int:
+        cart_count = 0
+        for item in self.cartitem_
