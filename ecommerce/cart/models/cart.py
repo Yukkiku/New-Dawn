@@ -33,4 +33,4 @@ class Cart(models.Model):
         cart_count = 0
         for item in self.cartitem_set.all():
             cart_count += item.quantity
-        return cart
+        return cart_count
