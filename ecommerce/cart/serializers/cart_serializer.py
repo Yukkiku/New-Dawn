@@ -7,4 +7,5 @@ from ecommerce.user.serializers.user_serializer import generic_serializer
 
 
 class CartSerializer(serializers.Serializer):
-    user = serialize
+    user = serializers.SerializerMethodField()
+    items = serializers.Seri
