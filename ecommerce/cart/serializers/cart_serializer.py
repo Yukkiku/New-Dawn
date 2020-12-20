@@ -6,4 +6,5 @@ from ecommerce.user.models import UserProfile
 from ecommerce.user.serializers.user_serializer import generic_serializer
 
 
-class CartSeria
+class CartSerializer(serializers.Serializer):
+    user = serialize
