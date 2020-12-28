@@ -11,4 +11,7 @@ class CartSerializer(serializers.Serializer):
     items = serializers.SerializerMethodField()
 
     @property
-    def request_user(se
+    def request_user(self):
+        user = None
+        if 'request' in self.context:
+          
