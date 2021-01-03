@@ -19,4 +19,6 @@ class CartSerializer(serializers.Serializer):
 
     def get_user(self, instance):
         user_profile_serializer = generic_serializer(UserProfile)
-        return
+        return user_profile_serializer(self.request_user).data
+
+    def get_item
