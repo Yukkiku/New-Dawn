@@ -15,4 +15,7 @@ class CartSerializer(serializers.Serializer):
         user = None
         if 'request' in self.context:
             user = self.context.get('request')
-        return 
+        return user
+
+    def get_user(self, instance):
+        user_profile_seriali
