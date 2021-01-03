@@ -21,4 +21,5 @@ class CartSerializer(serializers.Serializer):
         user_profile_serializer = generic_serializer(UserProfile)
         return user_profile_serializer(self.request_user).data
 
-    def get_item
+    def get_items(self, instance):
+        product_serializer = Product.g
