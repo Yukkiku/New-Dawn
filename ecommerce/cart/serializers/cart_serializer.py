@@ -26,4 +26,6 @@ class CartSerializer(serializers.Serializer):
         serializer = product_serializer(self.context.get('items'), many=True)
         return serializer
 
-    
+    class Meta:
+        model = Cart
+
