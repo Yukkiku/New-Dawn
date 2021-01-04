@@ -23,4 +23,7 @@ class CartSerializer(serializers.Serializer):
 
     def get_items(self, instance):
         product_serializer = Product.get_serializer()
-        serializer = product_serializer(self.c
+        serializer = product_serializer(self.context.get('items'), many=True)
+        return serializer
+
+    
