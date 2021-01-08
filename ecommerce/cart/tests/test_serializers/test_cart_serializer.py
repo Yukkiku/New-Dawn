@@ -1,4 +1,4 @@
 from django.test import TestCase
 
 from ecommerce.cart.factories import CartFactory
-from ecomm
+from ecommerce.cart.serializers.cart_serializer import CartSerial
