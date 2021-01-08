@@ -1,3 +1,4 @@
 from django.test import TestCase
 
-from ecommerce.ca
+from ecommerce.cart.factories import CartFactory
+from ecomm
