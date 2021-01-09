@@ -6,4 +6,5 @@ from ecommerce.product.factories import ProductVariationFactory
 
 
 class TestCartSerializer(TestCase):
-    def 
+    def setUp(self) -> None:
+        self.product_variation = ProductVariatio
