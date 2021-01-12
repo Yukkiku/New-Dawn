@@ -11,4 +11,6 @@ class TestCartSerializer(TestCase):
         self.cart = CartFactory(items=[self.product_variation])
         self.cart_serializer = CartSerializer(
             self.cart,
-            cont
+            context={
+                'request': self.cart.user,
+          
