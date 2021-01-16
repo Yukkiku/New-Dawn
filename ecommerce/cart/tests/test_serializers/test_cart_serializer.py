@@ -13,4 +13,6 @@ class TestCartSerializer(TestCase):
             self.cart,
             context={
                 'request': self.cart.user,
-          
+                'items': self.cart.items,
+            },
+  
