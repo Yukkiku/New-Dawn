@@ -15,4 +15,7 @@ class TestCartSerializer(TestCase):
                 'request': self.cart.user,
                 'items': self.cart.items,
             },
-  
+        ).data
+
+    def test_get_cart_serializer(self):
+     
