@@ -20,4 +20,4 @@ class TestCartSerializer(TestCase):
     def test_get_cart_serializer(self):
         self.assertEqual(self.cart_serializer['user']['id'], self.cart.user.id)
         self.assertEqual(self.cart_serializer['user']['location'], self.cart.user.location)
- 
+        self.assertEqual(self.cart_serializer['user']['email
