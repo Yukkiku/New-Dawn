@@ -8,4 +8,5 @@ from ecommerce.user.factories import UserFactory
 
 class OrderFactory(factory.DjangoModelFactory):
     user = factory.SubFactory(UserFactory)
-    cart = fact
+    cart = factory.SubFactory(CartFactory)
+    shipping = factory.SubFacto
