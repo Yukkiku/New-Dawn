@@ -6,4 +6,5 @@ import django.db.models.deletion
 
 class Migration(migrations.Migration):
 
-    depe
+    dependencies = [
+        ('shipping', '0001_initia
