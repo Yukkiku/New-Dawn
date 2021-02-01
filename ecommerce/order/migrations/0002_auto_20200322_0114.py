@@ -9,4 +9,7 @@ class Migration(migrations.Migration):
     dependencies = [
         ('shipping', '0001_initial'),
         ('product', '0001_initial'),
-  
+        ('order', '0001_initial'),
+    ]
+
+    operations 
