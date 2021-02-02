@@ -17,4 +17,6 @@ class Migration(migrations.Migration):
             model_name='orderdetail',
             name='air',
             field=models.ForeignKey(db_column='shipping_air', null=True, on_delete=django.db.models.deletion.CASCADE, to='shipping.Air'),
-       
+        ),
+        migrations.AlterField(
+            model_
