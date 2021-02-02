@@ -14,4 +14,6 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AlterField(
-            model_nam
+            model_name='orderdetail',
+            name='air',
+            field=models.Fo
