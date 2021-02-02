@@ -12,4 +12,6 @@ class Migration(migrations.Migration):
         ('order', '0001_initial'),
     ]
 
-    operations 
+    operations = [
+        migrations.AlterField(
+            model_nam
