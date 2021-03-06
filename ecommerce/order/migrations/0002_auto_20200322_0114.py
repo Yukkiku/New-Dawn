@@ -21,4 +21,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='orderdetail',
             name='book',
-            field=models.ForeignKey(db_column='product_book', null=True, on_delete=django.db.models.deletion.CASCADE, t
+            field=models.ForeignKey(db_column='product_book', null=True, on_delete=django.db.models.deletion.CASCADE, to='product.Book'),
+        ),
+        migrations.Alt
