@@ -26,4 +26,5 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='orderdetail',
             name='e_book',
-            field=models.ForeignKey(db_column='product_e_book', null=True, on_delete=dja
+            field=models.ForeignKey(db_column='product_e_book', null=True, on_delete=django.db.models.deletion.CASCADE, to='product.EBook'),
+        ),
