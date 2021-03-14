@@ -28,3 +28,5 @@ class Migration(migrations.Migration):
             name='e_book',
             field=models.ForeignKey(db_column='product_e_book', null=True, on_delete=django.db.models.deletion.CASCADE, to='product.EBook'),
         ),
+        migrations.AlterField(
+            model_nam
