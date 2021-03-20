@@ -31,4 +31,4 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='orderdetail',
             name='ground',
-         
+            field=models.ForeignKey(db_column='shipping_ground', null=Tr
