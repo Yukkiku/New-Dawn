@@ -36,4 +36,4 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='orderdetail',
             name='sea',
-            fi
+            field=models.ForeignKey(db_column='shipping_
