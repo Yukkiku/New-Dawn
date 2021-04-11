@@ -7,4 +7,5 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('sh
+        ('shipping', '0001_initial'),
+        ('product', '0001_ini
