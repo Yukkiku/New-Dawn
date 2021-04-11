@@ -8,4 +8,8 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('shipping', '0001_initial'),
-        ('product', '0001_ini
+        ('product', '0001_initial'),
+        ('order', '0002_auto_20200322_0114'),
+    ]
+
+    oper
