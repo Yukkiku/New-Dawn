@@ -12,4 +12,6 @@ class Migration(migrations.Migration):
         ('order', '0002_auto_20200322_0114'),
     ]
 
-    oper
+    operations = [
+        migrations.AlterField(
+            mo
