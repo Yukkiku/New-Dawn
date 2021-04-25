@@ -21,4 +21,4 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='orderdetail',
             name='book',
-            field=model
+            field=models.ForeignKey(blank=True, db_column='product_book', null=T
