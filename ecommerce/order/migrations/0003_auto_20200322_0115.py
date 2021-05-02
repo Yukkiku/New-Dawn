@@ -25,4 +25,5 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='orderdetail',
-            name='gr
+            name='ground',
+            field=models.ForeignKey(blank=True, 
