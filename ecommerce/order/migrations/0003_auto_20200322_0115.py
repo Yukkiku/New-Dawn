@@ -26,4 +26,4 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='orderdetail',
             name='ground',
-            field=models.ForeignKey(blank=True, 
+            field=models.ForeignKey(blank=True, db_column='shipping_ground', null=True, on_delete=django.db.models.deleti
