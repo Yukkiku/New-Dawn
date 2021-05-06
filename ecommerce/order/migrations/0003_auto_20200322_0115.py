@@ -30,4 +30,5 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='orderdetail',
-            name
+            name='sea',
+            field=models.ForeignKey(blank=True, db_co
