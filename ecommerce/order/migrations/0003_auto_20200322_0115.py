@@ -31,4 +31,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='orderdetail',
             name='sea',
-            field=models.ForeignKey(blank=True, db_column='shipping_sea', null=True, on_delete=django.db.models.deletion
+            field=models.ForeignKey(blank=True, db_column='shipping_sea', null=True, on_delete=django.db.models.deletion.CASCADE, to='shipping.Sea'),
+        ),
+    ]
