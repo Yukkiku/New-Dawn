@@ -7,4 +7,8 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('order', '0003_auto_20200322_0115'),
- 
+    ]
+
+    operations = [
+        migrations.RemoveField(
+            
