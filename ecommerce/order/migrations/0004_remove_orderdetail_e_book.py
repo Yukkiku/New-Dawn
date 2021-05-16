@@ -14,4 +14,4 @@ class Migration(migrations.Migration):
             model_name='orderdetail',
             name='e_book',
         ),
- 
+    ]
