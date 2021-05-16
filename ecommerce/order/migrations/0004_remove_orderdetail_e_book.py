@@ -11,4 +11,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RemoveField(
-            
+            model_name='orderdetail',
+            name='e_book',
+        ),
+ 
