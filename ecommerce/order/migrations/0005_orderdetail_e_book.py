@@ -7,4 +7,5 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('product', '0001_i
+        ('product', '0001_initial'),
+        ('order', '0004_remove_order
