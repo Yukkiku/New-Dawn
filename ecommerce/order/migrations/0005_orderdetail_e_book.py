@@ -6,4 +6,5 @@ import django.db.models.deletion
 
 class Migration(migrations.Migration):
 
-    depe
+    dependencies = [
+        ('product', '0001_i
