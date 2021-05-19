@@ -8,4 +8,8 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('product', '0001_initial'),
-        ('order', '0004_remove_order
+        ('order', '0004_remove_orderdetail_e_book'),
+    ]
+
+    operations = [
+        migrations.
