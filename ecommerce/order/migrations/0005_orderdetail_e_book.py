@@ -12,4 +12,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.
+        migrations.AddField(
+            model_name='orderdetail',
+      
