@@ -15,4 +15,4 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='orderdetail',
             name='e_book',
-            field=mod
+            field=models.ForeignKey(db_column='product_e_book', null=True, o
