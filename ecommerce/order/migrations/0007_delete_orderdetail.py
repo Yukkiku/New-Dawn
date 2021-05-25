@@ -3,4 +3,7 @@
 from django.db import migrations
 
 
-class Migration(migrations.M
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('order', '0006
