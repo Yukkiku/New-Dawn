@@ -3,4 +3,7 @@
 from django.db import migrations
 
 
-cl
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('
