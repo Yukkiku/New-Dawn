@@ -9,4 +9,6 @@ class Migration(migrations.Migration):
         ('order', '0007_delete_orderdetail'),
     ]
 
-    operations
+    operations = [
+        migrations.RenameField(
+            mod
