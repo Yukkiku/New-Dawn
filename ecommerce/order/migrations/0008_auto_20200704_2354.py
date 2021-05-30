@@ -15,4 +15,4 @@ class Migration(migrations.Migration):
             old_name='user',
             new_name='product',
         ),
-    
+    ]
