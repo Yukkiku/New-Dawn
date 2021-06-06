@@ -10,4 +10,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.
+        migrations.RenameField(
+            model_name='order',
+            old_nam
