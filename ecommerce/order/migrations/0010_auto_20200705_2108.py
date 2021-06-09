@@ -6,3 +6,22 @@ import django.db.models.deletion
 
 
 class Migration(migrations.Migration):
+
+    dependencies = [
+        ('cart', '0001_initial'),
+        ('shipping', '0005_remove_shipping_order'),
+        ('order', '0009_auto_20200704_2357'),
+    ]
+
+    operations = [
+        migrations.AddField(
+            model_name='order',
+            name='cart',
+            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, to='cart.Cart'),
+        ),
+        migrations.AddField(
+            model_name='order',
+            name='shipping',
+            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='shipping_address', to='shipping.Shipping'),
+        ),
+    ]
