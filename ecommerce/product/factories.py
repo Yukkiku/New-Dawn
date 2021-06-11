@@ -9,4 +9,5 @@ from ecommerce.product.models import (
 from ecommerce.product.models.product_variation import ProductVariation
 
 
-class CategoryFactory(fac
+class CategoryFactory(factory.DjangoModelFactory):
+    title = factory.Faker('pys
