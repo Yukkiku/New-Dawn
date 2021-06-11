@@ -6,4 +6,7 @@ from ecommerce.product.models import (
     EBook,
     Category,
 )
-from ecommerce.product.mode
+from ecommerce.product.models.product_variation import ProductVariation
+
+
+class CategoryFactory(fac
