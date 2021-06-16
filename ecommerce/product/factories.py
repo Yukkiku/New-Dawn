@@ -12,4 +12,5 @@ from ecommerce.product.models.product_variation import ProductVariation
 class CategoryFactory(factory.DjangoModelFactory):
     title = factory.Faker('pystr')
     slug = factory.Faker('pystr')
-    d
+    description = factory.Faker('pystr')
+    active = factor
