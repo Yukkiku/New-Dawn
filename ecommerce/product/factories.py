@@ -13,4 +13,7 @@ class CategoryFactory(factory.DjangoModelFactory):
     title = factory.Faker('pystr')
     slug = factory.Faker('pystr')
     description = factory.Faker('pystr')
-    active = factor
+    active = factory.Iterator([True, False])
+
+    class Meta:
+        mo
