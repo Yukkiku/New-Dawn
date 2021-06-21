@@ -16,4 +16,7 @@ class CategoryFactory(factory.DjangoModelFactory):
     active = factory.Iterator([True, False])
 
     class Meta:
-        mo
+        model = Category
+
+
+class ProductFactory(factory.DjangoMode
