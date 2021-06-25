@@ -21,4 +21,5 @@ class CategoryFactory(factory.DjangoModelFactory):
 
 class ProductFactory(factory.DjangoModelFactory):
     price = factory.Faker('pyint')
-    categ
+    categories = factory.LazyAttribute(CategoryFactory)
+    title =
