@@ -19,4 +19,6 @@ class CategoryFactory(factory.DjangoModelFactory):
         model = Category
 
 
-class ProductFactory(factory.DjangoMode
+class ProductFactory(factory.DjangoModelFactory):
+    price = factory.Faker('pyint')
+    categ
