@@ -26,4 +26,8 @@ class ProductFactory(factory.DjangoModelFactory):
 
     @factory.post_generation
     def categories(obj, create, extracted, **kwargs):
-        if n
+        if not create:
+            return
+
+    class Meta:
+        model = Prod
