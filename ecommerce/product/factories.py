@@ -25,4 +25,5 @@ class ProductFactory(factory.DjangoModelFactory):
     title = factory.Faker('pystr')
 
     @factory.post_generation
-    def
+    def categories(obj, create, extracted, **kwargs):
+        if n
