@@ -36,4 +36,8 @@ class ProductFactory(factory.DjangoModelFactory):
 class BookFactory(factory.DjangoModelFactory):
     weight = factory.Iterator([1, 2])
 
-    
+    class Meta:
+        model = Book
+
+
+class EBookF
