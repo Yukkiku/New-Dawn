@@ -30,4 +30,7 @@ class ProductFactory(factory.DjangoModelFactory):
             return
 
     class Meta:
-        model = Prod
+        model = Product
+
+
+class BookFactory(factory.DjangoModelFactory):
