@@ -40,4 +40,5 @@ class BookFactory(factory.DjangoModelFactory):
         model = Book
 
 
-class EBookF
+class EBookFactory(factory.DjangoModelFactory):
+    download_link = factory.Fak
