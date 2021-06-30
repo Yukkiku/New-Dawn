@@ -41,4 +41,10 @@ class BookFactory(factory.DjangoModelFactory):
 
 
 class EBookFactory(factory.DjangoModelFactory):
-    download_link = factory.Fak
+    download_link = factory.Faker('pystr')
+
+    class Meta:
+        model = EBook
+
+
+class ProductVa
