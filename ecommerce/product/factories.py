@@ -47,4 +47,5 @@ class EBookFactory(factory.DjangoModelFactory):
         model = EBook
 
 
-class ProductVa
+class ProductVariationFactory(factory.DjangoModelFactory):
+    product = facto
