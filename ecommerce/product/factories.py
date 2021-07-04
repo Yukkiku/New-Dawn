@@ -50,3 +50,5 @@ class EBookFactory(factory.DjangoModelFactory):
 class ProductVariationFactory(factory.DjangoModelFactory):
     product = factory.SubFactory(ProductFactory)
     title = factory.Faker('pystr')
+    price = factory.Faker('pyint')
+    sale_price = f
