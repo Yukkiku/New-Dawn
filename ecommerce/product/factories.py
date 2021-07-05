@@ -52,4 +52,8 @@ class ProductVariationFactory(factory.DjangoModelFactory):
     title = factory.Faker('pystr')
     price = factory.Faker('pyint')
     sale_price = factory.Faker('pyint')
-    inventory = factory.Faker('pyint'
+    inventory = factory.Faker('pyint')
+
+    class Meta:
+        model = ProductVariation
+
