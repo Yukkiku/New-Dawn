@@ -12,4 +12,6 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name=
+            name='Book',
+            fields=[
+                ('id', models.AutoF
