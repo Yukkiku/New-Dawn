@@ -10,4 +10,6 @@ class Migration(migrations.Migration):
     dependencies = [
     ]
 
-    operation
+    operations = [
+        migrations.CreateModel(
+            name=
