@@ -14,4 +14,4 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Book',
             fields=[
-                ('id', models.AutoF
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_nam
