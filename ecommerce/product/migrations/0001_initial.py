@@ -17,4 +17,5 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=30)),
                 ('price', models.PositiveIntegerField(help_text='in cents')),
-                ('weight', models
+                ('weight', models.PositiveIntegerField(help_text='in grams')),
+        
