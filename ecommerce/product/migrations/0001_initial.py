@@ -18,4 +18,6 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=30)),
                 ('price', models.PositiveIntegerField(help_text='in cents')),
                 ('weight', models.PositiveIntegerField(help_text='in grams')),
-        
+            ],
+            options={
+                'abstract': Fal
