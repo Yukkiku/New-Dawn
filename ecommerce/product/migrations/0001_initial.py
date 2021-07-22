@@ -20,4 +20,7 @@ class Migration(migrations.Migration):
                 ('weight', models.PositiveIntegerField(help_text='in grams')),
             ],
             options={
-                'abstract': Fal
+                'abstract': False,
+            },
+        ),
+        migrati
