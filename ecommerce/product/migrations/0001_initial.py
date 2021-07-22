@@ -23,4 +23,6 @@ class Migration(migrations.Migration):
                 'abstract': False,
             },
         ),
-        migrati
+        migrations.CreateModel(
+            name='EBook',
+           
