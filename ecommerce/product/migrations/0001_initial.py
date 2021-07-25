@@ -25,4 +25,5 @@ class Migration(migrations.Migration):
         ),
         migrations.CreateModel(
             name='EBook',
-           
+            fields=[
+                ('id', models.AutoField(auto_cr
