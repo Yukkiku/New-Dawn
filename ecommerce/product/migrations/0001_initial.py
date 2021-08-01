@@ -27,4 +27,5 @@ class Migration(migrations.Migration):
             name='EBook',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharF
+                ('name', models.CharField(max_length=30)),
+                ('price', models
