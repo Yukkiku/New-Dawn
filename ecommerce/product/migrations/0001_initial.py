@@ -31,4 +31,7 @@ class Migration(migrations.Migration):
                 ('price', models.PositiveIntegerField(help_text='in cents')),
                 ('download_link', models.URLField()),
             ],
-            o
+            options={
+                'abstract': False,
+            },
+ 
