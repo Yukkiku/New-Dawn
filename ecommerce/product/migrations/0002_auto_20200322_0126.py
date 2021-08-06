@@ -3,4 +3,7 @@
 from django.db import migrations, models
 
 
-class Mig
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('produ
