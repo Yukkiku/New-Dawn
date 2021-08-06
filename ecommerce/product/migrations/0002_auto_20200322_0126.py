@@ -6,4 +6,8 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('produ
+        ('product', '0001_initial'),
+    ]
+
+    operations = [
+ 
