@@ -13,4 +13,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='book',
             name='name',
-            field=models.CharField(blank=True, max_length=30
+            field=models.CharField(blank=True, max_length=30, null=True),
+        ),
+        migrations.AlterField(
+            m
