@@ -11,4 +11,6 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AlterField(
-            model_name
+            model_name='book',
+            name='name',
+           
