@@ -16,4 +16,6 @@ class Migration(migrations.Migration):
             field=models.CharField(blank=True, max_length=30, null=True),
         ),
         migrations.AlterField(
-            m
+            model_name='book',
+            name='price',
+            field
