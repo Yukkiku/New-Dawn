@@ -18,4 +18,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='book',
             name='price',
-            field=models.PositiveIntegerField(blank=True, help_text='i
+            field=models.PositiveIntegerField(blank=True, help_text='in cents', null=True),
+        ),
+        migrations.Alter
