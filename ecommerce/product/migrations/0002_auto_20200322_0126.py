@@ -22,4 +22,5 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='ebook',
-            n
+            name='name',
+            field=models.CharField(blank
