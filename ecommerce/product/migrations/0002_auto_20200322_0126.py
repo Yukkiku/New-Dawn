@@ -27,4 +27,5 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='ebook',
-    
+            name='price',
+            field=models.Posit
