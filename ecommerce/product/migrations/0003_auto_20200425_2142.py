@@ -11,4 +11,6 @@ class Migration(migrations.Migration):
         ('product', '0002_auto_20200322_0126'),
     ]
 
-    operati
+    operations = [
+        migrations.AddField(
+            model_name=
