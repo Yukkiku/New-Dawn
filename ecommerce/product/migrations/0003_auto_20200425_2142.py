@@ -7,4 +7,8 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('order', '0007_delete_orderd
+        ('order', '0007_delete_orderdetail'),
+        ('product', '0002_auto_20200322_0126'),
+    ]
+
+    operati
