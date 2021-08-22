@@ -4,4 +4,7 @@ from django.db import migrations, models
 import django.db.models.deletion
 
 
-class Migration(migrations.Migrati
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('order', '0007_delete_orderd
