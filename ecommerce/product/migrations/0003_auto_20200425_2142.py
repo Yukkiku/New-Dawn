@@ -13,4 +13,6 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AddField(
-            model_name=
+            model_name='book',
+            name='order',
+            field=mod
