@@ -15,4 +15,5 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='book',
             name='order',
-            field=models.ForeignKey(default=10, on_delete=django.db.models.deletio
+            field=models.ForeignKey(default=10, on_delete=django.db.models.deletion.CASCADE, related_name='books', to='order.Order'),
+            preserve
