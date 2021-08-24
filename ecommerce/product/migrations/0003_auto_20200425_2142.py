@@ -15,4 +15,4 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='book',
             name='order',
-            field=mod
+            field=models.ForeignKey(default=10, on_delete=django.db.models.deletio
