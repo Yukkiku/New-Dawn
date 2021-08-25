@@ -19,4 +19,6 @@ class Migration(migrations.Migration):
             preserve_default=False,
         ),
         migrations.AddField(
-    
+            model_name='ebook',
+            name='order',
+            field=mo
