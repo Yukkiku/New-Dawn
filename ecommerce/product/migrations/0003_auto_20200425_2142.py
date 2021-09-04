@@ -23,4 +23,5 @@ class Migration(migrations.Migration):
             name='order',
             field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, related_name='ebooks', to='order.Order'),
             preserve_default=False,
-       
+        ),
+    ]
