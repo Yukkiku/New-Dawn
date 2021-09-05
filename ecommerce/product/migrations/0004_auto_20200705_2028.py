@@ -4,4 +4,7 @@ from django.db import migrations, models
 import django.db.models.deletion
 
 
-class Migration(migrations.Migrat
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('product', '0003_auto_20200
