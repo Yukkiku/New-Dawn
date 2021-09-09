@@ -14,4 +14,4 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Category',
             fields=[
-                ('id', models.AutoField(auto_created=T
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_nam
