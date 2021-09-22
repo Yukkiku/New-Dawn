@@ -21,3 +21,5 @@ class Migration(migrations.Migration):
                 ('active', models.BooleanField(default=True)),
             ],
         ),
+        migrations.CreateModel(
+            name='Product
