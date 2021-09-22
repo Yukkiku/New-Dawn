@@ -15,4 +15,5 @@ class Migration(migrations.Migration):
             name='Category',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('title', models.CharFie
+                ('title', models.CharField(max_length=100)),
+                ('slug', models.SlugField(unique=Tru
