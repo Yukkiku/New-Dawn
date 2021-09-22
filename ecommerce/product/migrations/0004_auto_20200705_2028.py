@@ -18,4 +18,6 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=100)),
                 ('slug', models.SlugField(unique=True)),
                 ('description', models.CharField(blank=True, max_length=200, null=True)),
-                ('ac
+                ('active', models.BooleanField(default=True)),
+            ],
+        ),
