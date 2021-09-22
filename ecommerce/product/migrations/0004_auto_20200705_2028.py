@@ -17,4 +17,5 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=100)),
                 ('slug', models.SlugField(unique=True)),
-                ('description', models.CharField(b
+                ('description', models.CharField(blank=True, max_length=200, null=True)),
+                ('ac
