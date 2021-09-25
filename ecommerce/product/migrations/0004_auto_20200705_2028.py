@@ -22,4 +22,6 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Product
+            name='Product',
+            fields=[
+                ('id', models.AutoFi
