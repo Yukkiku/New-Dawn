@@ -28,4 +28,5 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=100)),
                 ('description', models.TextField(blank=True, max_length=500, null=True)),
                 ('price', models.PositiveIntegerField()),
-                ('active', models.BooleanField(default=True
+                ('active', models.BooleanField(default=True)),
+                ('categories', models.ManyToMany
