@@ -25,4 +25,5 @@ class Migration(migrations.Migration):
             name='Product',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('title', models
+                ('title', models.CharField(max_length=100)),
+                ('description', mod
