@@ -30,4 +30,4 @@ class Migration(migrations.Migration):
                 ('price', models.PositiveIntegerField()),
                 ('active', models.BooleanField(default=True)),
                 ('categories', models.ManyToManyField(blank=True, to='product.Category')),
-                ('def
+                ('default', models.ForeignKey(blank=True, null=True, on_delete=djan
