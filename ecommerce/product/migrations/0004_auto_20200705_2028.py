@@ -30,4 +30,7 @@ class Migration(migrations.Migration):
                 ('price', models.PositiveIntegerField()),
                 ('active', models.BooleanField(default=True)),
                 ('categories', models.ManyToManyField(blank=True, to='product.Category')),
-                ('default', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='default_cat
+                ('default', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='default_category', to='product.Category')),
+            ],
+        ),
+       
