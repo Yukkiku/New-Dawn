@@ -33,4 +33,5 @@ class Migration(migrations.Migration):
                 ('default', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='default_category', to='product.Category')),
             ],
         ),
-       
+        migrations.RemoveField(
+            model_name='
