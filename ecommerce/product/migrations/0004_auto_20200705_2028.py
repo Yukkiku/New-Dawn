@@ -37,4 +37,6 @@ class Migration(migrations.Migration):
             model_name='book',
             name='id',
         ),
-        migrations.Rem
+        migrations.RemoveField(
+            model_name='book',
+          
