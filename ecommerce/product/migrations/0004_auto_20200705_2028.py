@@ -44,4 +44,6 @@ class Migration(migrations.Migration):
         migrations.RemoveField(
             model_name='book',
             name='order',
-       
+        ),
+        migrations.RemoveField(
+            mod
