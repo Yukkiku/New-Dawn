@@ -58,4 +58,7 @@ class Migration(migrations.Migration):
             name='name',
         ),
         migrations.RemoveField(
-            model_name='ebo
+            model_name='ebook',
+            name='order',
+        ),
+        migrations.Re
