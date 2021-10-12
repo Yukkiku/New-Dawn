@@ -54,4 +54,6 @@ class Migration(migrations.Migration):
             name='id',
         ),
         migrations.RemoveField(
-            mod
+            model_name='ebook',
+            name='name',
+        )
