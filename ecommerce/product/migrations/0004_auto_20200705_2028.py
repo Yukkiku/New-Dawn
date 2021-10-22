@@ -63,4 +63,6 @@ class Migration(migrations.Migration):
         ),
         migrations.RemoveField(
             model_name='ebook',
-       
+            name='price',
+        ),
+        migrations.Crea
