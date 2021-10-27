@@ -65,4 +65,6 @@ class Migration(migrations.Migration):
             model_name='ebook',
             name='price',
         ),
-        migrations.Crea
+        migrations.CreateModel(
+            name='ProductVariation',
+        
