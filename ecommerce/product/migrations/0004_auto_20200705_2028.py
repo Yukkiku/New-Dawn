@@ -67,4 +67,5 @@ class Migration(migrations.Migration):
         ),
         migrations.CreateModel(
             name='ProductVariation',
-        
+            fields=[
+                ('id', models.AutoF
