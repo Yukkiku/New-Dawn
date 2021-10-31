@@ -72,4 +72,5 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=100)),
                 ('price', models.PositiveIntegerField()),
                 ('sale_price', models.PositiveIntegerField(blank=True, null=True)),
-                ('active', mode
+                ('active', models.BooleanField(default=True)),
+                ('inventory',
