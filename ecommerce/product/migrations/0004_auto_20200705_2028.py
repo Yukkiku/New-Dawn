@@ -73,4 +73,5 @@ class Migration(migrations.Migration):
                 ('price', models.PositiveIntegerField()),
                 ('sale_price', models.PositiveIntegerField(blank=True, null=True)),
                 ('active', models.BooleanField(default=True)),
-                ('inventory',
+                ('inventory', models.IntegerField(blank=True, null=True)),
+      
