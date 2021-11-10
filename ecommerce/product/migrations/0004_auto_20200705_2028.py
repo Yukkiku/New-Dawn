@@ -74,4 +74,6 @@ class Migration(migrations.Migration):
                 ('sale_price', models.PositiveIntegerField(blank=True, null=True)),
                 ('active', models.BooleanField(default=True)),
                 ('inventory', models.IntegerField(blank=True, null=True)),
-                ('product', models.ForeignKey(on_delete=django.db.models
+                ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product.Product')),
+            ],
+  
