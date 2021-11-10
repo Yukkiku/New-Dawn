@@ -76,4 +76,7 @@ class Migration(migrations.Migration):
                 ('inventory', models.IntegerField(blank=True, null=True)),
                 ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product.Product')),
             ],
-  
+        ),
+        migrations.AddField(
+            model_name='book',
+      
