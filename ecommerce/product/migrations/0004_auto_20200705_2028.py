@@ -79,4 +79,5 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='book',
-      
+            name='product_ptr',
+            field=models.OneToOneField
