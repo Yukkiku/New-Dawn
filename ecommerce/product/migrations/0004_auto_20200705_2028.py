@@ -80,4 +80,4 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='book',
             name='product_ptr',
-            field=models.OneToOneField
+            field=models.OneToOneField(auto_created=True, default=1, on_delete=django.db.mode
