@@ -86,4 +86,4 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ebook',
             name='product_ptr',
-      
+            field=models.OneToOneField(auto_created=True, default=1
