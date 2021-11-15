@@ -81,4 +81,7 @@ class Migration(migrations.Migration):
             model_name='book',
             name='product_ptr',
             field=models.OneToOneField(auto_created=True, default=1, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='product.Product'),
-            preserve_defa
+            preserve_default=False,
+        ),
+        migrations.AddField(
+            
