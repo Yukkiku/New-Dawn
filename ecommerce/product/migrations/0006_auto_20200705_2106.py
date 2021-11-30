@@ -11,4 +11,6 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AlterField(
-            model_name='pr
+            model_name='product',
+            name='price',
+            field=mod
