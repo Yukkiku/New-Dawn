@@ -13,4 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='product',
             name='price',
-            field=mod
+            field=models.PositiveIntegerField(null=True),
+        ),
+    ]
