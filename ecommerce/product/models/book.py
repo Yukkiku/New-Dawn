@@ -7,4 +7,5 @@ class Book(Product):
     weight = models.PositiveIntegerField(help_text='in grams')
 
 
-class EB
+class EBook(Product):
+    download_link = models.URLField()
