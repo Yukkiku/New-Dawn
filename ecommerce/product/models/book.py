@@ -4,4 +4,7 @@ from ecommerce.product.models.product import Product
 
 
 class Book(Product):
-    weight = 
+    weight = models.PositiveIntegerField(help_text='in grams')
+
+
+class EB
