@@ -8,4 +8,5 @@ class Category(models.Model):
     active = models.BooleanField(default=True)
 
     def __unicode__(self):
-        return self.t
+        return self.title
+
