@@ -5,4 +5,5 @@ from ecommerce.product.models.category import Category
 
 
 class Product(models.Model):
-    t
+    title = models.CharField(max_length=100)
+    descripti
