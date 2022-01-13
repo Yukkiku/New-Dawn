@@ -6,4 +6,4 @@ from ecommerce.product.models.category import Category
 
 class Product(models.Model):
     title = models.CharField(max_length=100)
-    descripti
+    description = models.TextField(max_length=500, blank=Tr
