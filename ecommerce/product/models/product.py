@@ -15,4 +15,5 @@ class Product(models.Model):
         return self.title
 
     def save(self, *args, **kwargs):
-        super(Product,
+        super(Product, self).save(*args, **kwargs)
+        if self.product_va
