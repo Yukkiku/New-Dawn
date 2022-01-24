@@ -12,4 +12,7 @@ class Product(models.Model):
     categories = models.ManyToManyField(Category, blank=True)
 
     def __unicode__(self):
-        retu
+        return self.title
+
+    def save(self, *args, **kwargs):
+        super(Product,
