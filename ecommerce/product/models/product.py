@@ -16,4 +16,5 @@ class Product(models.Model):
 
     def save(self, *args, **kwargs):
         super(Product, self).save(*args, **kwargs)
-        if self.product_va
+        if self.product_variation_set.all().count() == 0:
+            from ecommer
