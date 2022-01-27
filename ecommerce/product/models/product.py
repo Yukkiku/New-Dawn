@@ -21,4 +21,6 @@ class Product(models.Model):
             ProductVariation.objects.create(product=self, price=self.price, title='Default')
 
     @classmethod
-    def get_serializer(cl
+    def get_serializer(cls):
+        class BaseSerializer(serializers.ModelSerializer):
+       
