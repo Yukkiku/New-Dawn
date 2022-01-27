@@ -18,4 +18,7 @@ class Product(models.Model):
         super(Product, self).save(*args, **kwargs)
         if self.product_variation_set.all().count() == 0:
             from ecommerce.product.models import ProductVariation
-            ProductVariation.objects.create(product=self, price=self.price, title='Def
+            ProductVariation.objects.create(product=self, price=self.price, title='Default')
+
+    @classmethod
+    def get_serializer(cl
