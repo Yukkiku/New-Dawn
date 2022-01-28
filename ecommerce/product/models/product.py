@@ -23,4 +23,6 @@ class Product(models.Model):
     @classmethod
     def get_serializer(cls):
         class BaseSerializer(serializers.ModelSerializer):
-       
+            class Meta:
+                model = cls
+    
