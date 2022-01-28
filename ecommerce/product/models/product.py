@@ -25,4 +25,6 @@ class Product(models.Model):
         class BaseSerializer(serializers.ModelSerializer):
             class Meta:
                 model = cls
-    
+                fields = '__all__'
+
+        return BaseSe
