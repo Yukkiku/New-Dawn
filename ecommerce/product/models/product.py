@@ -27,4 +27,4 @@ class Product(models.Model):
                 model = cls
                 fields = '__all__'
 
-        return BaseSe
+        return BaseSerializer
