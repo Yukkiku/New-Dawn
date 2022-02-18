@@ -9,4 +9,4 @@ class ProductVariation(models.Model):
     sale_price = models.PositiveIntegerField(null=True, blank=True)
     active = models.BooleanField(default=True)
     inventory = models.IntegerField(null=True, blank=True)
-    p
+    product = models.ForeignKey(Product, related_name='produ
