@@ -9,4 +9,6 @@ class ProductVariation(models.Model):
     sale_price = models.PositiveIntegerField(null=True, blank=True)
     active = models.BooleanField(default=True)
     inventory = models.IntegerField(null=True, blank=True)
-    product = models.ForeignKey(Product, related_name='produ
+    product = models.ForeignKey(Product, related_name='product_variation_set', on_delete=models.CASCADE)
+
+    @propert
