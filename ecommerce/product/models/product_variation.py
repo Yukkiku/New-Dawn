@@ -11,4 +11,6 @@ class ProductVariation(models.Model):
     inventory = models.IntegerField(null=True, blank=True)
     product = models.ForeignKey(Product, related_name='product_variation_set', on_delete=models.CASCADE)
 
-    @propert
+    @property
+    def get_price(self):
+        return self.sale_price if sel
