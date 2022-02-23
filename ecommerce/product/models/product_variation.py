@@ -13,4 +13,4 @@ class ProductVariation(models.Model):
 
     @property
     def get_price(self):
-        return self.sale_price if sel
+        return self.sale_price if self.sale_price else self.price
