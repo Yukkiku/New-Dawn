@@ -6,4 +6,6 @@ from ecommerce.product.models import Book, EBook
 
 
 class BookTestCase(TestCase):
-    def setUp(se
+    def setUp(self):
+        self.book = BookFactory()
+        self.e_book = E
