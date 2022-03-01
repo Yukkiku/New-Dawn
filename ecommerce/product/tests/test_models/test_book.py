@@ -11,4 +11,5 @@ class BookTestCase(TestCase):
         self.e_book = EBookFactory()
 
     def test_get_book(self):
-        book
+        book = Book.objects.get(id=self.book.id)
+        self.assertEqual(book.
