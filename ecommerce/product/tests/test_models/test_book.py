@@ -14,4 +14,5 @@ class BookTestCase(TestCase):
         book = Book.objects.get(id=self.book.id)
         self.assertEqual(book.weight, self.book.weight)
 
-    def test_get_e_book(s
+    def test_get_e_book(self):
+        e_book = EBook.objects.get(id=self.e_book.id)
