@@ -1,3 +1,3 @@
 from unittest import TestCase
 
-fr
+from ecommerce.product.factories import ProductFactory, CategoryFact
