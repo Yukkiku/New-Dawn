@@ -16,3 +16,4 @@ class BookTestCase(TestCase):
 
     def test_get_e_book(self):
         e_book = EBook.objects.get(id=self.e_book.id)
+        self.assertEqual(e_book.download_link, self.
