@@ -4,4 +4,6 @@ from ecommerce.product.factories import ProductFactory, CategoryFactory
 from ecommerce.product.models import Category
 
 
-class TestCatego
+class TestCategory(TestCase):
+    def setUp(self) -> None:
+      
