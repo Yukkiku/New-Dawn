@@ -8,4 +8,5 @@ class TestCategory(TestCase):
     def setUp(self) -> None:
         self.category = CategoryFactory()
 
-    def test_get_categor
+    def test_get_category(self):
+        category = Category.objects.get(id=self
