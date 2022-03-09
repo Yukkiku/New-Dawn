@@ -9,4 +9,5 @@ class TestCategory(TestCase):
         self.category = CategoryFactory()
 
     def test_get_category(self):
-        category = Category.objects.get(id=self
+        category = Category.objects.get(id=self.category.id)
+        self.assertEqual(category.slu
