@@ -11,4 +11,5 @@ class TestCategory(TestCase):
     def test_get_category(self):
         category = Category.objects.get(id=self.category.id)
         self.assertEqual(category.slug, self.category.slug)
-        self.assertEqual(
+        self.assertEqual(category.description, self.category.description)
+        self
