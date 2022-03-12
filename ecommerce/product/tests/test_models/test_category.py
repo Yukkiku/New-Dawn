@@ -12,4 +12,4 @@ class TestCategory(TestCase):
         category = Category.objects.get(id=self.category.id)
         self.assertEqual(category.slug, self.category.slug)
         self.assertEqual(category.description, self.category.description)
-        self
+        self.assertEqual(category.title, category.title)
