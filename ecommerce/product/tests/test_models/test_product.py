@@ -5,4 +5,7 @@ from ecommerce.product.models import Product, ProductVariation
 
 
 class TestProductVariationCase(TestCase):
-    def setUp(self
+    def setUp(self) -> None:
+        self.product = ProductFactory()
+
+    def 
