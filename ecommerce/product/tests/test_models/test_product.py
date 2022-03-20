@@ -9,4 +9,6 @@ class TestProductVariationCase(TestCase):
         self.product = ProductFactory()
 
     def test_get_product(self):
-        product = Product.objects.get(id=self.pr
+        product = Product.objects.get(id=self.product.id)
+        self.assertEqual(self.product.id, product.id)
+    
