@@ -11,4 +11,5 @@ class TestProductVariationCase(TestCase):
     def test_get_product(self):
         product = Product.objects.get(id=self.product.id)
         self.assertEqual(self.product.id, product.id)
-        self.assertEqual(self.product.price, 
+        self.assertEqual(self.product.price, product.price)
+        self.assertEqual(self.produc
