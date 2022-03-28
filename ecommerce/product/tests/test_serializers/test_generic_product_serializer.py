@@ -7,4 +7,6 @@ from ecommerce.product.models import EBook, Book
 class TestGenericProductSerializer(TestCase):
     def setUp(self) -> None:
         self.e_book = EBookFactory()
-        self.book = BookFact
+        self.book = BookFactory()
+
+    def test_get_e_book_serializer(self):
