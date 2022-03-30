@@ -11,4 +11,5 @@ class TestGenericProductSerializer(TestCase):
 
     def test_get_e_book_serializer(self):
         serializer_class = EBook.get_serializer()
-        se
+        serializer_data = serializer_class(self.e_book).data
+  
