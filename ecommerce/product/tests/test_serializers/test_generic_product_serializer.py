@@ -15,3 +15,5 @@ class TestGenericProductSerializer(TestCase):
         self.assertEqual(serializer_data['download_link'], self.e_book.download_link)
 
     def test_get_book_serializer(self):
+        serializer_class = Book.get_serializer()
+        se
