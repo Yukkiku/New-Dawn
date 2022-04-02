@@ -17,4 +17,4 @@ class TestGenericProductSerializer(TestCase):
     def test_get_book_serializer(self):
         serializer_class = Book.get_serializer()
         serializer_data = serializer_class(self.book).data
-        self.assertEqual(serializer_data['weight'], self.bo
+        self.assertEqual(serializer_data['weight'], self.book.weight)
