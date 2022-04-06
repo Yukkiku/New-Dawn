@@ -10,4 +10,7 @@ from ecommerce.product.models import Product
 
 
 class TestProductViewSet(APITestCase):
-    client =
+    client = APIClient()
+
+    def setUp(self) -> None:
+        self.prod
