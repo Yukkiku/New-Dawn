@@ -6,4 +6,8 @@ from rest_framework.test import APITestCase, APIClient
 from django.urls import reverse
 
 from ecommerce.product.factories import ProductFactory
-from ecommerce.product.models impo
+from ecommerce.product.models import Product
+
+
+class TestProductViewSet(APITestCase):
+    client =
