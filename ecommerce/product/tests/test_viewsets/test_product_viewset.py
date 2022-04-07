@@ -13,4 +13,7 @@ class TestProductViewSet(APITestCase):
     client = APIClient()
 
     def setUp(self) -> None:
-        self.prod
+        self.product = ProductFactory()
+
+    def test_get_all_books(self):
+     
