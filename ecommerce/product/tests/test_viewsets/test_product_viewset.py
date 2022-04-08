@@ -16,4 +16,5 @@ class TestProductViewSet(APITestCase):
         self.product = ProductFactory()
 
     def test_get_all_books(self):
-     
+        response = self.client.get(
+            reverse('product-li
