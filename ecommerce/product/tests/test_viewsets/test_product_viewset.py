@@ -17,4 +17,7 @@ class TestProductViewSet(APITestCase):
 
     def test_get_all_books(self):
         response = self.client.get(
-            reverse('product-li
+            reverse('product-list', kwargs={'version': 'v1'})
+        )
+
+        self.assertEqual(
