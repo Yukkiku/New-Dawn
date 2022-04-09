@@ -20,4 +20,6 @@ class TestProductViewSet(APITestCase):
             reverse('product-list', kwargs={'version': 'v1'})
         )
 
-        self.assertEqual(
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+        product_data = json.loa
