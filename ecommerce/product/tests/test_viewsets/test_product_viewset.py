@@ -24,4 +24,5 @@ class TestProductViewSet(APITestCase):
 
         product_data = json.loads(response.content)[0]
 
-        self.assertEqual(product_data['t
+        self.assertEqual(product_data['title'], self.product.title)
+        self.asse
