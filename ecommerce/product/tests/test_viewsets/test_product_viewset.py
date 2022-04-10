@@ -22,4 +22,6 @@ class TestProductViewSet(APITestCase):
 
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
-        product_data = json.loa
+        product_data = json.loads(response.content)[0]
+
+        self.assertEqual(product_data['t
