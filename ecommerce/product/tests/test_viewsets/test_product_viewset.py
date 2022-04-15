@@ -26,4 +26,6 @@ class TestProductViewSet(APITestCase):
 
         self.assertEqual(product_data['title'], self.product.title)
         self.assertEqual(product_data['price'], self.product.price)
-   
+        self.assertEqual(product_data['active'], self.product.active)
+
+    def test_create_new_product_e_book(self):
