@@ -29,3 +29,5 @@ class TestProductViewSet(APITestCase):
         self.assertEqual(product_data['active'], self.product.active)
 
     def test_create_new_product_e_book(self):
+        data = json.dumps({
+            'title': '
