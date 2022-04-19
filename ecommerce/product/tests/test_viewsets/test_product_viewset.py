@@ -33,4 +33,7 @@ class TestProductViewSet(APITestCase):
             'title': 'samsung gear galaxy',
             'brand': 'samsung',
             'price': 800.00,
-            'image': 'http://exa
+            'image': 'http://example.com/samsung_gear.png'
+        })
+
+        response = se
