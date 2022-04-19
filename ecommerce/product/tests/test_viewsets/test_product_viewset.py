@@ -31,4 +31,6 @@ class TestProductViewSet(APITestCase):
     def test_create_new_product_e_book(self):
         data = json.dumps({
             'title': 'samsung gear galaxy',
-            'brand': 'samsung
+            'brand': 'samsung',
+            'price': 800.00,
+            'image': 'http://exa
