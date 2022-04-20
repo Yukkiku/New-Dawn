@@ -36,4 +36,5 @@ class TestProductViewSet(APITestCase):
             'image': 'http://example.com/samsung_gear.png'
         })
 
-        response = se
+        response = self.client.post(
+            reverse('product-list', kwar
