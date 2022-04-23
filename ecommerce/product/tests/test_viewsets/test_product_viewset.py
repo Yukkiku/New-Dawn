@@ -42,4 +42,5 @@ class TestProductViewSet(APITestCase):
             content_type='application/json'
         )
 
-        self.asse
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+
