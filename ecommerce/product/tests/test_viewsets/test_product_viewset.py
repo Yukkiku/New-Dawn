@@ -44,4 +44,6 @@ class TestProductViewSet(APITestCase):
 
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
 
-        created_product = Product.objects.get(title='samsung 
+        created_product = Product.objects.get(title='samsung gear galaxy')
+
+        self.assertTrue(created_product.titl
