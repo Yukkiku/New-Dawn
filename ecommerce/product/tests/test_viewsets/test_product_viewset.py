@@ -47,4 +47,4 @@ class TestProductViewSet(APITestCase):
         created_product = Product.objects.get(title='samsung gear galaxy')
 
         self.assertTrue(created_product.title, 'samsung gear galaxy')
-        self.assertTrue(created_produc
+        self.assertTrue(created_product.price, 800.00)
