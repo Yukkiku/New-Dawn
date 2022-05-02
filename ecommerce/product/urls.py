@@ -3,4 +3,5 @@ from rest_framework import routers
 
 from ecommerce.product import viewsets
 
-router = routers.SimpleRouter(
+router = routers.SimpleRouter()
+router.register(r'product', viewsets.ProductViewSet, b
