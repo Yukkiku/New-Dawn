@@ -1,1 +1,1 @@
-from .product_
+from .product_viewset import ProductViewSet
