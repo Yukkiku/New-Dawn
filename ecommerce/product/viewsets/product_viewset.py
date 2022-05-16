@@ -6,4 +6,7 @@ from rest_framework.viewsets import ModelViewSet
 from ecommerce.product.models import Product
 
 
-class ProductViewSet(ModelViewSe
+class ProductViewSet(ModelViewSet, CreateModelMixin):
+
+    def get_queryset(self):
+        return Prod
