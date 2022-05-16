@@ -9,4 +9,6 @@ from ecommerce.product.models import Product
 class ProductViewSet(ModelViewSet, CreateModelMixin):
 
     def get_queryset(self):
-        return Prod
+        return Product.objects.all().order_by('id')
+
+    def create(se
