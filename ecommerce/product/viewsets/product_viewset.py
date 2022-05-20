@@ -11,4 +11,5 @@ class ProductViewSet(ModelViewSet, CreateModelMixin):
     def get_queryset(self):
         return Product.objects.all().order_by('id')
 
-    def create(se
+    def create(self, request, *args, **kwargs):
+        product_ser
