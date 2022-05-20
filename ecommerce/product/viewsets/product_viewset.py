@@ -12,4 +12,5 @@ class ProductViewSet(ModelViewSet, CreateModelMixin):
         return Product.objects.all().order_by('id')
 
     def create(self, request, *args, **kwargs):
-        product_ser
+        product_serializer = Product.get_serializer()
+        serializer = p
