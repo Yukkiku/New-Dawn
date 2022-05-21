@@ -13,4 +13,6 @@ class ProductViewSet(ModelViewSet, CreateModelMixin):
 
     def create(self, request, *args, **kwargs):
         product_serializer = Product.get_serializer()
-        serializer = p
+        serializer = product_serializer(data=request.data)
+
+        serializer.is_v
