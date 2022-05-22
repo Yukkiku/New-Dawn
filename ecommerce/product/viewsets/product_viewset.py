@@ -15,4 +15,6 @@ class ProductViewSet(ModelViewSet, CreateModelMixin):
         product_serializer = Product.get_serializer()
         serializer = product_serializer(data=request.data)
 
-        serializer.is_v
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        re
