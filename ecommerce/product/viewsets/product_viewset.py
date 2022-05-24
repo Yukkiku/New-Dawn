@@ -17,4 +17,7 @@ class ProductViewSet(ModelViewSet, CreateModelMixin):
 
         serializer.is_valid(raise_exception=True)
         serializer.save()
-        return Response(serializer.data, status=status.HTTP_201_CREATED
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+    def get_serializer_class(self):
+        return Product.get_s
