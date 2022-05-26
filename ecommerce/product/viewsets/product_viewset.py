@@ -20,4 +20,4 @@ class ProductViewSet(ModelViewSet, CreateModelMixin):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
     def get_serializer_class(self):
-        return Product.get_s
+        return Product.get_serializer()
