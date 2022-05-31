@@ -1,3 +1,6 @@
 import factory
 
-from ecommerce.shipping.mode
+from ecommerce.shipping.models import Shipping
+
+
+class ShippingFactory(factor
