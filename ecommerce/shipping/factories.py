@@ -3,4 +3,5 @@ import factory
 from ecommerce.shipping.models import Shipping
 
 
-class ShippingFactory(factor
+class ShippingFactory(factory.DjangoModelFactory):
+    cost = factory.Iterator([1,
