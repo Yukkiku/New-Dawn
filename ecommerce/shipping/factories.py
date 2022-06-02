@@ -9,4 +9,4 @@ class ShippingFactory(factory.DjangoModelFactory):
     name = factory.Faker('pystr')
 
     class Meta:
-        model = 
+        model = Shipping
