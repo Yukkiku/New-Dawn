@@ -4,4 +4,6 @@ from ecommerce.shipping.models import Shipping
 
 
 class ShippingFactory(factory.DjangoModelFactory):
-    cost = factory.Iterator([1,
+    cost = factory.Iterator([1, 2])
+    shipment_type = factory.Iterator([1, 2, 3])
+  
