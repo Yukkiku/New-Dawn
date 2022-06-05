@@ -3,4 +3,9 @@
 from django.db import migrations, models
 
 
-class 
+class Migration(migrations.Migration):
+
+    initial = True
+
+    dependencies = [
+ 
