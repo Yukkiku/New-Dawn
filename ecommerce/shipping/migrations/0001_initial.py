@@ -14,4 +14,4 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Air',
             fields=[
-  
+                ('id', models.AutoField(auto_created=
