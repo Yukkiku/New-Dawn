@@ -26,3 +26,5 @@ class Migration(migrations.Migration):
         ),
         migrations.CreateModel(
             name='Ground',
+            fields=[
+                ('id', models.AutoField(auto_c
