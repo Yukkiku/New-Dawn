@@ -23,4 +23,6 @@ class Migration(migrations.Migration):
             options={
                 'abstract': False,
             },
-   
+        ),
+        migrations.CreateModel(
+            name='Ground',
