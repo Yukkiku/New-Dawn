@@ -34,4 +34,7 @@ class Migration(migrations.Migration):
                 ('weight', models.PositiveIntegerField(default=0, null=True)),
             ],
             options={
-   
+                'abstract': False,
+            },
+        ),
+  
