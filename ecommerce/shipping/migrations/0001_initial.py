@@ -40,4 +40,4 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Sea',
             fields=[
-                ('id', models.AutoF
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, ver
