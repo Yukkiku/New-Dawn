@@ -38,4 +38,6 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name
+            name='Sea',
+            fields=[
+                ('id', models.AutoF
