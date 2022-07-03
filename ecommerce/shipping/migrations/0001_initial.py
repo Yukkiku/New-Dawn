@@ -50,4 +50,4 @@ class Migration(migrations.Migration):
                 'abstract': False,
             },
         ),
- 
+    ]
