@@ -7,4 +7,5 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('o
+        ('order', '0007_delete_orderdetail'),
+        ('shippin
