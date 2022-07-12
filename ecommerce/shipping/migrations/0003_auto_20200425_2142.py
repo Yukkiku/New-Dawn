@@ -8,4 +8,8 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('order', '0007_delete_orderdetail'),
-        ('shippin
+        ('shipping', '0002_auto_20200322_0312'),
+    ]
+
+    operations = [
+ 
