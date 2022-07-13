@@ -14,4 +14,5 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='air',
-      
+            name='order',
+            field=models.ForeignKey(defa
