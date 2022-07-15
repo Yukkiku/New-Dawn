@@ -18,4 +18,6 @@ class Migration(migrations.Migration):
             field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, related_name='air', to='order.Order'),
             preserve_default=False,
         ),
-        migrations.
+        migrations.AddField(
+            model_name='ground',
+         
