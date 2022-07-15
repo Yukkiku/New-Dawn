@@ -16,4 +16,6 @@ class Migration(migrations.Migration):
             model_name='air',
             name='order',
             field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, related_name='air', to='order.Order'),
-            prese
+            preserve_default=False,
+        ),
+        migrations.
