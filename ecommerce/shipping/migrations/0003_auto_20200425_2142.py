@@ -20,4 +20,5 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='ground',
-         
+            name='order',
+            field=models.ForeignKey(
