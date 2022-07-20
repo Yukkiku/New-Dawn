@@ -22,4 +22,7 @@ class Migration(migrations.Migration):
             model_name='ground',
             name='order',
             field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, related_name='ground', to='order.Order'),
-            preserve_defa
+            preserve_default=False,
+        ),
+        migrations.AddField(
+            
