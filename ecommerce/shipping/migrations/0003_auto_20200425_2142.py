@@ -25,4 +25,6 @@ class Migration(migrations.Migration):
             preserve_default=False,
         ),
         migrations.AddField(
-            
+            model_name='sea',
+            name='order',
+            f
