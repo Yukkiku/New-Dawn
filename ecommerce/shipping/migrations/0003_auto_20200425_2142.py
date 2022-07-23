@@ -30,4 +30,4 @@ class Migration(migrations.Migration):
             field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, related_name='sea', to='order.Order'),
             preserve_default=False,
         ),
- 
+    ]
