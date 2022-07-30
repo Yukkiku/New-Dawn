@@ -12,4 +12,7 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.C
+        migrations.CreateModel(
+            name='Shipping',
+            fields=[
+    
