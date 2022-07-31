@@ -15,4 +15,4 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Shipping',
             fields=[
-    
+                ('id', models.AutoField(auto_created=T
