@@ -19,4 +19,5 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=30)),
                 ('weight', models.PositiveIntegerField(default=0, null=True)),
                 ('shipment_type', models.CharField(choices=[('ground', 'GROUND'), ('air', 'AIR'), ('sea', 'SEA')], max_length=30)),
-                ('cost', models.PositiveIntegerField(default
+                ('cost', models.PositiveIntegerField(default=0, help_text='in cents', null=True)),
+                ('order',
