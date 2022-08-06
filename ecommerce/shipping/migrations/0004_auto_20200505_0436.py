@@ -18,4 +18,5 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=30)),
                 ('weight', models.PositiveIntegerField(default=0, null=True)),
-                ('shipment_type', models.CharField(choices=[('ground', 'GROUND'), ('air', 'AIR'), ('sea', 'SEA')], max_length=3
+                ('shipment_type', models.CharField(choices=[('ground', 'GROUND'), ('air', 'AIR'), ('sea', 'SEA')], max_length=30)),
+                ('cost', models.PositiveIntegerField(default
