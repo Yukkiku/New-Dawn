@@ -20,4 +20,5 @@ class Migration(migrations.Migration):
                 ('weight', models.PositiveIntegerField(default=0, null=True)),
                 ('shipment_type', models.CharField(choices=[('ground', 'GROUND'), ('air', 'AIR'), ('sea', 'SEA')], max_length=30)),
                 ('cost', models.PositiveIntegerField(default=0, help_text='in cents', null=True)),
-                ('order', models.ForeignKey(on_delete=django.db.models.deletion.CAS
+                ('order', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='shipping', to='order.Order')),
+            
