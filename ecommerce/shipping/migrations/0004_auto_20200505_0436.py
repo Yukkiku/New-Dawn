@@ -27,3 +27,5 @@ class Migration(migrations.Migration):
             model_name='ground',
             name='order',
         ),
+        migrations.RemoveField(
+            mod
