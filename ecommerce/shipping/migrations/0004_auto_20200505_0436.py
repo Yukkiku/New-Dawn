@@ -24,4 +24,6 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.RemoveField(
-            m
+            model_name='ground',
+            name='order',
+        ),
