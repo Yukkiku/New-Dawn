@@ -30,4 +30,6 @@ class Migration(migrations.Migration):
         migrations.RemoveField(
             model_name='sea',
             name='order',
-        
+        ),
+        migrations.DeleteModel(
+            name=
