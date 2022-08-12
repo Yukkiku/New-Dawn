@@ -32,4 +32,7 @@ class Migration(migrations.Migration):
             name='order',
         ),
         migrations.DeleteModel(
-            name=
+            name='Air',
+        ),
+        migrations.DeleteModel(
+          
