@@ -28,4 +28,6 @@ class Migration(migrations.Migration):
             name='order',
         ),
         migrations.RemoveField(
-            mod
+            model_name='sea',
+            name='order',
+        
