@@ -35,4 +35,7 @@ class Migration(migrations.Migration):
             name='Air',
         ),
         migrations.DeleteModel(
-          
+            name='Ground',
+        ),
+        migrations.DeleteModel(
+   
