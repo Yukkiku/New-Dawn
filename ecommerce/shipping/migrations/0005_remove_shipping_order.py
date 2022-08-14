@@ -15,3 +15,4 @@ class Migration(migrations.Migration):
             model_name='shipping',
             name='order',
         ),
+    ]
