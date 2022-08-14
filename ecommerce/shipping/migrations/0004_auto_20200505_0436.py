@@ -38,4 +38,6 @@ class Migration(migrations.Migration):
             name='Ground',
         ),
         migrations.DeleteModel(
-   
+            name='Sea',
+        ),
+    ]
