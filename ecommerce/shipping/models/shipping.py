@@ -25,3 +25,13 @@ class Shipping(models.Model):
 
     cost = models.PositiveIntegerField(
         help_text='in cents',
+        null=True,
+        default=0
+    )
+
+    @property
+    def value(self):
+        return self.cost * self.weight
+
+    def __str__(self) -> str:
+        return self.name
