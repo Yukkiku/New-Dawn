@@ -5,4 +5,6 @@ from ecommerce.order.constants import SEA, AIR, GROUND
 from ecommerce.shipping.factories import Shipping, ShippingFactory
 
 
-class ShippingTypeTestCase(TestCas
+class ShippingTypeTestCase(TestCase):
+    def setUp(self):
+        self.sea = ShippingFactory
