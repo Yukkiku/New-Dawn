@@ -7,4 +7,5 @@ from ecommerce.shipping.factories import Shipping, ShippingFactory
 
 class ShippingTypeTestCase(TestCase):
     def setUp(self):
-        self.sea = ShippingFactory
+        self.sea = ShippingFactory(weight=10, cost=2, shipment_type=SEA)
+        se
