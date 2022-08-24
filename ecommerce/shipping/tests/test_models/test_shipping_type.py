@@ -11,4 +11,6 @@ class ShippingTypeTestCase(TestCase):
         self.ground = ShippingFactory(weight=10, cost=1, shipment_type=GROUND)
         self.air = ShippingFactory(weight=10, cost=4, shipment_type=AIR)
 
-    def test_get_sea_cost(self)
+    def test_get_sea_cost(self):
+        sea = Shipping.objects.get(id=self.sea.id)
+       
