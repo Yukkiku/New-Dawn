@@ -13,4 +13,6 @@ class ShippingTypeTestCase(TestCase):
 
     def test_get_sea_cost(self):
         sea = Shipping.objects.get(id=self.sea.id)
-       
+        self.assertEqual(sea.value, 20)
+
+    def test_get_ground_
