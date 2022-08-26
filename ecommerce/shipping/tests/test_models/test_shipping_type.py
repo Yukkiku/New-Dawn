@@ -16,4 +16,5 @@ class ShippingTypeTestCase(TestCase):
         self.assertEqual(sea.value, 20)
 
     def test_get_ground_cost(self):
-        ground = Shipping.objects.get(id=self.g
+        ground = Shipping.objects.get(id=self.ground.id)
+        self.assertEqual(ground.value, 10)
