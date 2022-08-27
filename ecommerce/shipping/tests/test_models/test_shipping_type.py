@@ -20,4 +20,5 @@ class ShippingTypeTestCase(TestCase):
         self.assertEqual(ground.value, 10)
 
     def test_get_air_cost(self):
-        air = Shipping.object
+        air = Shipping.objects.get(id=self.air.id)
+        self.assertEqual(air.value, 40)
