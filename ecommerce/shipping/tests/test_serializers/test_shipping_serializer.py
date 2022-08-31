@@ -6,4 +6,5 @@ from ecommerce.shipping.serializers.shipping_serializer import ShippingSerialize
 
 class TestShippingSerializer(TestCase):
     def setUp(self) -> None:
-        self.shipping = ShippingFac
+        self.shipping = ShippingFactory()
+        self.shipping_serializer = ShippingSerializ
