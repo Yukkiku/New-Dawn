@@ -9,4 +9,6 @@ class TestShippingSerializer(TestCase):
         self.shipping = ShippingFactory()
         self.shipping_serializer = ShippingSerializer(self.shipping)
 
-    def test_get_shippi
+    def test_get_shipping_serializer(self):
+        serializer_data = self.shipping_serializer.data
+  
