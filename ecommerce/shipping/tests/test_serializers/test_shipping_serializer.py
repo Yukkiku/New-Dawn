@@ -12,4 +12,5 @@ class TestShippingSerializer(TestCase):
     def test_get_shipping_serializer(self):
         serializer_data = self.shipping_serializer.data
         self.assertEqual(serializer_data['name'], self.shipping.name)
-        self.assertEqual(serializer_data['
+        self.assertEqual(serializer_data['weight'], self.shipping.weight)
+        self.assertEqu
