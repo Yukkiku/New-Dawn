@@ -8,4 +8,7 @@ from django.urls import reverse
 from ecommerce.shipping.factories import ShippingFactory
 
 
-class
+class TestShippingViewSet(APITestCase):
+    client = APIClient()
+
+    def
