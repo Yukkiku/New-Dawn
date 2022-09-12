@@ -11,4 +11,5 @@ from ecommerce.shipping.factories import ShippingFactory
 class TestShippingViewSet(APITestCase):
     client = APIClient()
 
-    def
+    def setUp(self) -> None:
+        self.shipping = ShippingFacto
