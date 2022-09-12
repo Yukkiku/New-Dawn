@@ -12,4 +12,7 @@ class TestShippingViewSet(APITestCase):
     client = APIClient()
 
     def setUp(self) -> None:
-        self.shipping = ShippingFacto
+        self.shipping = ShippingFactory()
+
+    def test_get_all_shipping(self):
+        res
