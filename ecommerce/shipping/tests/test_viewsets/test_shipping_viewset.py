@@ -16,4 +16,7 @@ class TestShippingViewSet(APITestCase):
 
     def test_get_all_shipping(self):
         response = self.client.get(
-            reverse('shipping-lis
+            reverse('shipping-list', kwargs={'version': 'v1'})
+        )
+
+        self.assertEqu
