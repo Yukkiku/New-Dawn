@@ -19,4 +19,6 @@ class TestShippingViewSet(APITestCase):
             reverse('shipping-list', kwargs={'version': 'v1'})
         )
 
-        self.assertEqu
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+       
