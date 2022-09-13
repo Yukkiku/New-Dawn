@@ -15,4 +15,5 @@ class TestShippingViewSet(APITestCase):
         self.shipping = ShippingFactory()
 
     def test_get_all_shipping(self):
-        res
+        response = self.client.get(
+            reverse('shipping-lis
