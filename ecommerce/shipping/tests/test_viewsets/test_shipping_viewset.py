@@ -21,4 +21,6 @@ class TestShippingViewSet(APITestCase):
 
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
-       
+        shipping_data = json.loads(response.content)[0]
+
+   
