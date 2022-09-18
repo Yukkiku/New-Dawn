@@ -24,4 +24,5 @@ class TestShippingViewSet(APITestCase):
         shipping_data = json.loads(response.content)[0]
 
         self.assertEqual(shipping_data['name'], self.shipping.name)
-        self.assertEqual(int(shipping_data['shipme
+        self.assertEqual(int(shipping_data['shipment_type']), self.shipping.shipment_type)
+        self.assertE
