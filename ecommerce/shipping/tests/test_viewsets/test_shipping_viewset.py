@@ -25,4 +25,4 @@ class TestShippingViewSet(APITestCase):
 
         self.assertEqual(shipping_data['name'], self.shipping.name)
         self.assertEqual(int(shipping_data['shipment_type']), self.shipping.shipment_type)
-        self.assertE
+        self.assertEqual(shipping_data['cost'], self.shipping.cost)
