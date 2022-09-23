@@ -7,4 +7,5 @@ router = routers.SimpleRouter()
 router.register(r'shipping', viewsets.ShippingViewSet)
 
 urlpatterns = [
-    path('', include(
+    path('', include(router.urls)),
+]
