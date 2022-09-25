@@ -1,1 +1,1 @@
-from .shipping_viewset import Shippi
+from .shipping_viewset import ShippingViewSet
