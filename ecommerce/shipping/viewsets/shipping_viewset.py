@@ -2,4 +2,7 @@ from rest_framework.authentication import SessionAuthentication
 from rest_framework.viewsets import ModelViewSet
 
 from ecommerce.shipping.models import Shipping
-from ecommerce.shipping.serializers.shipping_seriali
+from ecommerce.shipping.serializers.shipping_serializer import ShippingSerializer
+
+
+class ShippingViewSet(ModelViewSe
