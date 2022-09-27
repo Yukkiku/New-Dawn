@@ -8,4 +8,5 @@ from ecommerce.shipping.serializers.shipping_serializer import ShippingSerialize
 class ShippingViewSet(ModelViewSet):
 
     authentication_classes = [SessionAuthentication]
-    queryset = Shipp
+    queryset = Shipping.objects.all()
+    serializer_class = ShippingSeriali
