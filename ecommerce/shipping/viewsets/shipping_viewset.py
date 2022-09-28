@@ -9,4 +9,4 @@ class ShippingViewSet(ModelViewSet):
 
     authentication_classes = [SessionAuthentication]
     queryset = Shipping.objects.all()
-    serializer_class = ShippingSeriali
+    serializer_class = ShippingSerializer
