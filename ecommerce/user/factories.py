@@ -8,4 +8,5 @@ from ecommerce.user.models.user_profile import UserProfile
 
 
 class UserFactory(factory.DjangoModelFactory):
-    email = fact
+    email = factory.Faker('pystr')
+    username = factory.Faker(
