@@ -9,4 +9,10 @@ from ecommerce.user.models.user_profile import UserProfile
 
 class UserFactory(factory.DjangoModelFactory):
     email = factory.Faker('pystr')
-    username = factory.Faker(
+    username = factory.Faker('pystr')
+
+    class Meta:
+        model = User
+
+
+class Us
