@@ -15,4 +15,6 @@ class UserFactory(factory.DjangoModelFactory):
         model = User
 
 
-class Us
+class UserProfileFactory(factory.DjangoModelFactory):
+    class Meta:
+        model 
