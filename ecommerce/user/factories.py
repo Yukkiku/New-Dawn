@@ -17,4 +17,6 @@ class UserFactory(factory.DjangoModelFactory):
 
 class UserProfileFactory(factory.DjangoModelFactory):
     class Meta:
-        model 
+        model = UserProfile
+
+    user_type = factory.Iterator([1, 2])
