@@ -20,3 +20,4 @@ class UserProfileFactory(factory.DjangoModelFactory):
         model = UserProfile
 
     user_type = factory.Iterator([1, 2])
+    location = factory.Iterator(["France", "Italy", "
