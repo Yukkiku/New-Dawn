@@ -20,4 +20,5 @@ class UserProfileFactory(factory.DjangoModelFactory):
         model = UserProfile
 
     user_type = factory.Iterator([1, 2])
-    location = factory.Iterator(["France", "Italy", "
+    location = factory.Iterator(["France", "Italy", "Spain"])
+    birth_date = factory.LazyFunction(datetime.date.today)
