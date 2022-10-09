@@ -23,4 +23,7 @@ class UserProfileFactory(factory.DjangoModelFactory):
     location = factory.Iterator(["France", "Italy", "Spain"])
     birth_date = factory.LazyFunction(datetime.date.today)
     email = factory.Iterator(["drsantos20@gmail.com", "batman@dc.com", "flash@dc.com"])
-    user = factory.SubFac
+    user = factory.SubFactory(UserFactory)
+
+
+class CustomerFactory(factory.DjangoModelFacto
