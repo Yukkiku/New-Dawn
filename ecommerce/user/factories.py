@@ -26,4 +26,6 @@ class UserProfileFactory(factory.DjangoModelFactory):
     user = factory.SubFactory(UserFactory)
 
 
-class CustomerFactory(factory.DjangoModelFacto
+class CustomerFactory(factory.DjangoModelFactory):
+    user = factory.SubFactory(UserFactory)
+    order = factory.Su
