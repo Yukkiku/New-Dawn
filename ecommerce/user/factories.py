@@ -30,4 +30,5 @@ class CustomerFactory(factory.DjangoModelFactory):
     user = factory.SubFactory(UserFactory)
     order = factory.SubFactory('ecommerce.order.factories.OrderFactory')
 
-    cla
+    class Meta:
+        model = Customer
