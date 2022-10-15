@@ -7,4 +7,7 @@ import django.db.models.deletion
 
 class Migration(migrations.Migration):
 
-    i
+    initial = True
+
+    dependencies = [
+        migration
