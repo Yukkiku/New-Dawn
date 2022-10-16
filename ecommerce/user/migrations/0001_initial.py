@@ -15,4 +15,6 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            
+            name='UserProfile',
+            fields=[
+             
