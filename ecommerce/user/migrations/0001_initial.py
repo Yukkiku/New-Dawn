@@ -17,4 +17,4 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='UserProfile',
             fields=[
-             
+                ('id', models.AutoField(auto_created=True, prim
