@@ -19,4 +19,5 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('user_type', models.PositiveSmallIntegerField(choices=[(1, 'customer'), (2, 'admin')], default=1)),
-                ('location', models.CharFie
+                ('location', models.CharField(blank=True, max_length=30)),
+                ('birt
