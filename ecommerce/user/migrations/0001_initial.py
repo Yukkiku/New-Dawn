@@ -21,4 +21,4 @@ class Migration(migrations.Migration):
                 ('user_type', models.PositiveSmallIntegerField(choices=[(1, 'customer'), (2, 'admin')], default=1)),
                 ('location', models.CharField(blank=True, max_length=30)),
                 ('birth_date', models.DateField(blank=True, null=True)),
-          
+                ('user', models.OneToOneField(on_delete=django.db.model
