@@ -5,4 +5,9 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependenc
+    dependencies = [
+        ('user', '0001_initial'),
+    ]
+
+    operations = [
+    
