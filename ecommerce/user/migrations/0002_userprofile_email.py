@@ -13,4 +13,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='userprofile',
             name='email',
-            fiel
+            field=models.EmailField(max_length=30, null=True),
+        ),
+    ]
