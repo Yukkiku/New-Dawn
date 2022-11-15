@@ -8,4 +8,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('order', '0007_delete_orderdetail'),
-  
+        ('user', '0002_userprofile_email'),
+    ]
+
+    operati
