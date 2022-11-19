@@ -15,4 +15,4 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Customer',
             fields=[
-                ('id', mo
+                ('id', models.AutoField(auto_created=True, primary_key=True, s
