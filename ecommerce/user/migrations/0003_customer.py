@@ -13,4 +13,6 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            na
+            name='Customer',
+            fields=[
+                ('id', mo
