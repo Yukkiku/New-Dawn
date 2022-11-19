@@ -11,4 +11,6 @@ class Migration(migrations.Migration):
         ('user', '0002_userprofile_email'),
     ]
 
-    operati
+    operations = [
+        migrations.CreateModel(
+            na
