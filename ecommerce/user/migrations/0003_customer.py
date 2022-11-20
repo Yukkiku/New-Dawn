@@ -16,4 +16,4 @@ class Migration(migrations.Migration):
             name='Customer',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('ord
+                ('order', models.ForeignKey(on_delete=django.db.models.d
