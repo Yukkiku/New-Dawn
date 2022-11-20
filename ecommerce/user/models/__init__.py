@@ -1,1 +1,2 @@
-from .user_pr
+from .user_profile import UserProfile
+from .customer import Customer
