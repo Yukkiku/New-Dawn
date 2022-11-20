@@ -17,4 +17,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('order', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='order.Order')),
-                ('user', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, 
+                ('user', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to='user.UserProfile')),
+            ],
+        ),
+    ]
