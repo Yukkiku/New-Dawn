@@ -1,2 +1,6 @@
 from django.contrib.auth.models import User
-from django.db impo
+from django.db import models
+
+
+class UserProfile(models.Model):
+    USER_TYPE_CHOICE
