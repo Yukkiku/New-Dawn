@@ -9,3 +9,4 @@ class UserProfile(models.Model):
     )
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user_type = models.PositiveSmallIntegerField(choices=USER_T
