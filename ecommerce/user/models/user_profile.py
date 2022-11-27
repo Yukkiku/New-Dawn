@@ -8,4 +8,4 @@ class UserProfile(models.Model):
         (2, 'admin'),
     )
 
-    user
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
