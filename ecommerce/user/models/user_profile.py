@@ -3,4 +3,9 @@ from django.db import models
 
 
 class UserProfile(models.Model):
-    USER_TYPE_CHOICE
+    USER_TYPE_CHOICES = (
+        (1, 'customer'),
+        (2, 'admin'),
+    )
+
+    user
