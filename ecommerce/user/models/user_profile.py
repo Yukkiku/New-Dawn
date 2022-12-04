@@ -12,4 +12,4 @@ class UserProfile(models.Model):
     user_type = models.PositiveSmallIntegerField(choices=USER_TYPE_CHOICES, default=1)
     location = models.CharField(max_length=30, blank=True)
     birth_date = models.DateField(null=True, blank=True)
-    email = models.EmailField(max_length=30, nul
+    email = models.EmailField(max_length=30, null=True)
