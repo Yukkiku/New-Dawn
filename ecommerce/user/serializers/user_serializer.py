@@ -1,4 +1,5 @@
 from rest_framework import serializers
 
 
-de
+def generic_serializer(cls):
+    class BaseSerializer(serializers.Mo
