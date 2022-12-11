@@ -3,4 +3,9 @@ from datetime import datetime
 from django.test import TestCase
 
 from ecommerce.user.factories import UserProfileFactory
-from ecommerce.user.models.user_profile impor
+from ecommerce.user.models.user_profile import UserProfile
+
+
+class UserTestCase(TestCase):
+
+    de
