@@ -14,4 +14,5 @@ class UserTestCase(TestCase):
     def test_get_user(self):
         user = UserProfile.objects.get(email='snake@mtgs.com')
 
-        se
+        self.assertEqual(self.user.email, user.email)
+      
