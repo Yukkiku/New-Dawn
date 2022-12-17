@@ -12,4 +12,6 @@ class UserTestCase(TestCase):
         self.user = UserProfileFactory(email='snake@mtgs.com')
 
     def test_get_user(self):
-        user = Use
+        user = UserProfile.objects.get(email='snake@mtgs.com')
+
+        se
