@@ -8,4 +8,5 @@ from ecommerce.user.models.user_profile import UserProfile
 
 class UserTestCase(TestCase):
 
-    de
+    def setUp(self):
+        self.user = UserProfileFactory(e
