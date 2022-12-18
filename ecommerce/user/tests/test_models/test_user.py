@@ -16,4 +16,4 @@ class UserTestCase(TestCase):
 
         self.assertEqual(self.user.email, user.email)
         self.assertEqual(self.user.user_type, user.user_type)
-        self.assert
+        self.assertEqual(self.user.location, user.location)
