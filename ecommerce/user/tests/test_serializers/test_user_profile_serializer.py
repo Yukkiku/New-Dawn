@@ -6,4 +6,5 @@ from ecommerce.user.serializers.user_serializer import generic_serializer
 
 
 class TestUserProfileSerializer(TestCase):
-    def
+    def setUp(self) -> None:
+        self.user = UserProfil
