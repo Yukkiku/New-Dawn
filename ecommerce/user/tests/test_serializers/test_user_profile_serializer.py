@@ -10,4 +10,5 @@ class TestUserProfileSerializer(TestCase):
         self.user = UserProfileFactory()
         self.user_profile_serializer = generic_serializer(UserProfile)
 
-    def test_get_user_serializer(s
+    def test_get_user_serializer(self):
+        serializer_data = self.user_profile_serializer(se
