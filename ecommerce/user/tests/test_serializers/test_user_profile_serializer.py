@@ -13,4 +13,5 @@ class TestUserProfileSerializer(TestCase):
     def test_get_user_serializer(self):
         serializer_data = self.user_profile_serializer(self.user).data
         self.assertEqual(serializer_data['email'], self.user.email)
-        self.assertEqual(se
+        self.assertEqual(serializer_data['location'], self.user.location)
+        self
