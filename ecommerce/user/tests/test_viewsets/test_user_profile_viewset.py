@@ -5,4 +5,7 @@ from rest_framework.test import APITestCase, APIClient
 
 from django.urls import reverse
 
-from ecommerce.user.factories im
+from ecommerce.user.factories import UserProfileFactory
+
+
+class TestUserProfileView
