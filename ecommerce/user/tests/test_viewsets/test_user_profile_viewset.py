@@ -8,4 +8,7 @@ from django.urls import reverse
 from ecommerce.user.factories import UserProfileFactory
 
 
-class TestUserProfileView
+class TestUserProfileViewSet(APITestCase):
+    client = APIClient()
+
+    def setUp(self):
