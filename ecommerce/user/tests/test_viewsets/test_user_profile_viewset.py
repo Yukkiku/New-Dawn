@@ -15,4 +15,5 @@ class TestUserProfileViewSet(APITestCase):
         self.user = UserProfileFactory()
 
     def test_get_all_users(self):
-        response = self.clie
+        response = self.client.get(
+            reverse('user-list', kwargs={'version'
