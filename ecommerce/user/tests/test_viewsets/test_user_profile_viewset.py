@@ -14,4 +14,5 @@ class TestUserProfileViewSet(APITestCase):
     def setUp(self):
         self.user = UserProfileFactory()
 
-    
+    def test_get_all_users(self):
+        response = self.clie
