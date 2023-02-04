@@ -12,3 +12,6 @@ class TestUserProfileViewSet(APITestCase):
     client = APIClient()
 
     def setUp(self):
+        self.user = UserProfileFactory()
+
+    
