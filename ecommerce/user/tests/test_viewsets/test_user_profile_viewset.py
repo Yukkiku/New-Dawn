@@ -19,4 +19,4 @@ class TestUserProfileViewSet(APITestCase):
             reverse('user-list', kwargs={'version': 'v1', 'type': 'userprofile'})
         )
 
-        self.ass
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
