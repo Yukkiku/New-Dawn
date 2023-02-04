@@ -16,4 +16,7 @@ class TestUserProfileViewSet(APITestCase):
 
     def test_get_all_users(self):
         response = self.client.get(
-            reverse('user-list', kwargs={'version'
+            reverse('user-list', kwargs={'version': 'v1', 'type': 'userprofile'})
+        )
+
+        self.ass
