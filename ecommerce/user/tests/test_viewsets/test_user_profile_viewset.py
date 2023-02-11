@@ -23,4 +23,4 @@ class TestUserProfileViewSet(APITestCase):
 
         user_data = json.loads(response.content)[0]
 
-        self.asser
+        self.assertEqual(user_data['email'], self.user.email)
