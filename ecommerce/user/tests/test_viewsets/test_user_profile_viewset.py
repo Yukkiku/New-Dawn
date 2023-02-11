@@ -24,3 +24,5 @@ class TestUserProfileViewSet(APITestCase):
         user_data = json.loads(response.content)[0]
 
         self.assertEqual(user_data['email'], self.user.email)
+        self.assertEqual(user_data['location'], self.user.location)
+       
