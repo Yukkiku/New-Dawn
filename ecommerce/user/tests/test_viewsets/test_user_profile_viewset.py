@@ -25,4 +25,4 @@ class TestUserProfileViewSet(APITestCase):
 
         self.assertEqual(user_data['email'], self.user.email)
         self.assertEqual(user_data['location'], self.user.location)
-        self.assertEqual(user_data['user_type'], self.user.user_
+        self.assertEqual(user_data['user_type'], self.user.user_type)
