@@ -6,4 +6,5 @@ APP_NAME_LABEL = 'user'
 
 
 def get_generic_serializer(name):
-    model_name = url_par
+    model_name = url_params_validation(name)
+    user = get_model_by_nam
