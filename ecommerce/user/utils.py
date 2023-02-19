@@ -1,1 +1,2 @@
-from ecommerce.user.serializers.user_serial
+from ecommerce.user.serializers.user_serializer import generic_serializer
+from ecommerce.utils impo
